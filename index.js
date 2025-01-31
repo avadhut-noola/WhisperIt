@@ -1,5 +1,10 @@
+import path from "path";
+import { dirname } from "path";
+import { fileURLToPath } from "url";
 import express from "express";
 import axios from "axios";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const app = express();
 const PORT = 3000;
