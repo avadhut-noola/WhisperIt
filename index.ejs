@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>WhisperIt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+
+<body>
+  <h1>What's your secret?</h1>
+  <p class="user">Shhhh.... Hover on the image to read</p>
+  <div class="card">
+    <p>
+      <%= secret %>
+    </p>
+  </div>
+  <p class="user">
+    <%= user %>
+  </p>
+  <form action="/" method="get">
+    <button type="submit" id="revealButton">Read a new Secret</button>
+  </form>
+</body>
+
+
+</html>
