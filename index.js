@@ -5,7 +5,12 @@ const app = express();
 const PORT = 3000;
 const API_URL = "https://secrets-api.appbrewery.com/random";
 
-app.use(express.static("public"));
+// Set EJS as the template engine
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
+
+// Serve static files (CSS, images, etc.)
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get("/", async (req, res) => {
     try {
