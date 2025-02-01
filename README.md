@@ -4,7 +4,7 @@ It's perfect for discovering quirky, interesting, or mysterious secrets from aro
 Whether you're looking for entertainment or just want to share a laugh, WhisperIt brings unexpected surprises with every click.  
 
 # Usage
-This is deployed to production you can check it out: [Vercel Link](whisper-it-two.vercel.app/)
+This is deployed to production you can check it out: [Vercel Link](https://whisper-it-two.vercel.app/)
 
 # Features
 - Random Secrets: Fetch random secrets from an API and display them in a user-friendly interface.  
